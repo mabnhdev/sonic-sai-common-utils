@@ -1,0 +1,18 @@
+Source: libsonic-sai-common-utils
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends: debhelper (>= 9), autotools-dev,libsonic-common-dev,libsonic-logging-dev,sonic-sai-api-dev
+Standards-Version: 3.9.3
+
+Package: libsonic-sai-common-utils1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},libsonic-common1,libsonic-logging1
+Description: This package contains utility functions that is used by the Dell SAI implementation.
+
+
+Package: libsonic-sai-common-utils-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},libsonic-common-dev,libsonic-logging-dev,sonic-sai-api-dev,libsonic-sai-common-utils1
+Description: This package contains utility functions that is used by the Dell SAI implementation.
+
