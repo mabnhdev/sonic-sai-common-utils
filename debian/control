@@ -15,6 +15,6 @@ Description: This package contains utility functions that is used by the Dell SA
 
 Package: libsonic-sai-common-utils-dev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},libsonic-common-dev,libsonic-logging-dev,sonic-sai-api-dev,libsonic-sai-common-utils1
+Depends: ${shlibs:Depends}, ${misc:Depends},libsonic-common-dev,libsonic-logging-dev,sonic-sai-api-dev,libsonic-sai-common-utils1 (=${binary:Version})
 Description: This package contains utility functions that is used by the Dell SAI implementation.
 
