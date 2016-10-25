@@ -1,4 +1,4 @@
-
+ACLOCAL_AMFLAGS=-I m4
 
 include_HEADERS = \
 inc/sai_acl_npu_api.h    inc/sai_gen_utils.h      inc/sai_lag_callback.h    inc/sai_npu_mirror.h        inc/sai_port_common.h        inc/sai_shell_npu.h           inc/sai_vlan_api.h \
