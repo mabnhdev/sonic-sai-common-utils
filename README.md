@@ -5,7 +5,7 @@ This repo contains all utility functions that is used by the Dell SAI implementa
 Description
 -----------
 
-This repo has all utility implemenation for SAI pubilic api implementation.The NAS component utilizes this SAI API for NPU(network processor) related operations such as (port,l2,l3 related). 
+This repo has all utility implementation for SAI public api implementation.The NAS component utilizes this SAI API for NPU(network processor) related operations such as (port,l2,l3 related). 
 
 Building
 --------
