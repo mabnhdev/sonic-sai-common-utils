@@ -17,6 +17,10 @@
 #if !defined (__SAIGENUTILS_H_)
 #define __SAIGENUTILS_H_
 
+#ifdef __cplusplus
+extern "C"{
+#endif
+
 #include "saitypes.h"
 #include "sai.h"
 #include "std_type_defs.h"
@@ -100,4 +104,8 @@ sai_status_t sai_find_attr_in_attrlist(sai_attr_id_t attr_id,
  */
 bool dn_sai_check_duplicate_attr(uint_t attr_count, const sai_attribute_t *attr_list,
                                  uint_t *dup_index);
+
+#ifdef __cplusplus
+}
+#endif
 #endif
